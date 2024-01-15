@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f699ba690d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="pictures/logo-pc.png" class="logo-pc">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#Services">WORKS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer Intern</p>
+            <h1>Hi, I Am <span>Diptaprava</span><br>Chatterjee From India</h1>
+        </div>
+    
+         </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/user-1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="description">Greetings! I am Diptaprava Chatterjee, a passionate and dedicated individual currently pursuing B.Tech in Computer Science and Engineering.As I embark on this journey of self-discovery and academic excellence, I am excited to share my story and showcase my skills through this portfolio.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>CODING LANGUAGE</span><br>C,Java,Python</li>
+                            <li><span>WEB DEVELOPEMENT</span><br>Html,Css,Java Script</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Intern at CodersCave</span><br>Projects: Netflix clone, Personal Portfolio;</li>
+                            <li><span>Intern at Intern-Army</span><br>Projects:Weather Information App, Url Shortener, Quiz App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Secondary Education</span><br>Singur Mahamaya High School(2014-2020)</li>
+                            <li><span>Higher Secondary Education</span><br>Singur Mahamaya High School(2020-2022)</li>
+                            <li><span>Graduation</span><br>B.tech in Computer-science from College Of Engineering & Management,Kolaghat(On-Going)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I Will Design websites as per client requirement.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web App Design</h2>
+                <p>I Will Design Web Apps as per client requirement.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://media.istockphoto.com/id/1457905152/photo/female-hands-working-on-a-laptop-close-up-technology-freelance-online-course-remote-work-and.webp?b=1&s=170667a&w=0&k=20&c=IlxYCoRAqZARjgX8S8cgpED_ojqFSALzE3R5PPXshIU=" alt="">
+                 <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>this is the clone of a ongoing OTT platform.this clone is created by HTML & CSS</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="https://media.istockphoto.com/id/1718379390/photo/convert-pdf-files-with-online-programs-users-convert-document-files-on-a-platform-using-an.webp?b=1&s=170667a&w=0&k=20&c=KFyM_B8cz_5emi31HoLHlhHq74pklf8SqFlEOeLzj1U=" alt="">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>this is a portfolio website of me what shows about me,about my studies,about my experiences and about my skills.this is created by HTMLS,CSS and JAVA SCRIPT</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+        </div>
+ 
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Diptaprava made <i class="fa-solid fa-heart"></i> by Diptaprava </p>
+      </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function  opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
